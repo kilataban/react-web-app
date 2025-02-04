@@ -34,7 +34,6 @@ steps:
   #Using npm ci is generally faster than running npm install
   
   run: |
-  cd my-app
   npm run build
 - name: Run component tests
   run: |
